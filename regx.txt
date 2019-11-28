@@ -1,0 +1,22 @@
+
+account
+info
+Login
+mac -hardware info, change
+netscan
+packet
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"email":"sid@gmail.com","password":"qwerty"}' \
+  http://localhost:5000/getdata
+
+
+(?<=~)(.*?.;)
+
+(?<=~)(.*?.\s).*
+
+*.*(?=~)
+
+for no of R&A
+=LEN(TRIM(K3))-LEN(SUBSTITUTE(TRIM(K3), ";",""))
